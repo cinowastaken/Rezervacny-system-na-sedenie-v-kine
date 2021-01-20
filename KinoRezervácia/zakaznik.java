@@ -6,7 +6,7 @@ public class zakaznik
 	private String meno;
 	private String priezvisko;
 	
-	public zakaznik (int id, String meno, String priezvisko)
+	public zakaznik(int id, String meno, String priezvisko)
 	{
 		this.id = id;
 		this.meno = meno;

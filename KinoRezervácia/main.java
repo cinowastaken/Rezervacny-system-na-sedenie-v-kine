@@ -167,7 +167,7 @@ public class main
 				System.out.println("Zadali ste zrušenie rezervácie");
 				System.out.println("----------------------------------------");
 				
-				System.out.println("Zadajte vaše ID objednávky: ");
+				System.out.println("Zadajte vaše ID rezervácie: ");
 				int id = scanner.nextInt();
 				System.out.println("----------------------------------------");
 				
@@ -190,11 +190,11 @@ public class main
 				
 				if (zrusenie == 1)
 				{
-					System.out.println("Zrušili ste objednávku.");
+					System.out.println("Zrušili ste rezerváciu.");
 				}
 				else
 				{
-					System.out.println("Zadané ID objednávky neexistuje.");
+					System.out.println("Zadané ID rezervácie neexistuje.");
 				}
 			}
 			

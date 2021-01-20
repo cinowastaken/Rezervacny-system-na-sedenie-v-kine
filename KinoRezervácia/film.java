@@ -20,6 +20,11 @@ public class film
 		return nazov;
 	}
 	
+	public ArrayList<sedadlo> getSedadla()
+	{
+		return sedadla;
+	}
+	
 	public void vytvorSedadla(int obsadenie)
 	{
 		for (int i = 1; i <= obsadenie; i ++)
@@ -38,9 +43,5 @@ public class film
 				System.out.println();
 			}
 		}
-	}
-	public ArrayList<sedadlo> getSedadla()
-	{
-		return sedadla;
 	}
 }

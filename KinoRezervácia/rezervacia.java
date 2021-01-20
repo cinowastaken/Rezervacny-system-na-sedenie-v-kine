@@ -12,6 +12,11 @@ public class rezervacia
 		this.film = film;
 	}
 	
+	public zakaznik getZakaznik()
+	{
+		return this.zakaznik;
+	}
+	
 	public void setSedadlo(int sedadlo)
 	{
 		this.sedadlo = sedadlo;
@@ -35,10 +40,5 @@ public class rezervacia
 	{
 		film.getSedadla().get(this.sedadlo).setObsadene(false);
 		return true;
-	}
-	
-	public zakaznik getZakaznik()
-	{
-		return this.zakaznik;
 	}
 }
