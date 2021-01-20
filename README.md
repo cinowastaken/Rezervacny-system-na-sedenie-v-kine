@@ -21,4 +21,4 @@ Kritéria:
 
 Bonus:
 - scanner
-- podmienky na správny vstup
+- podmienky na správne zadávanie(?)
